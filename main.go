@@ -3,10 +3,10 @@ package main
 import "fmt"
 
 func double(num int) int {
-  return num * 3
+	return num * 2
 }
 
 func main() {
-  num := 3
-  fmt.Println(double(num))
+	num := 3
+	fmt.Println(double(num))
 }
